@@ -1,16 +1,15 @@
-window.addEventListener('DOMContentLoaded', () => {
+'use strict';
+import * as libraryBlock from '../../library.blocks/library-block.js'
 
-    const blockImage = document.getElementsByClassName('block__image');
-
-    Array.from(blockImage).forEach((item, index) => {
-
+function clickChangeSizing(classNameElement, classNameModifier, message) {
+    const element = document.getElementsByClassName(classNameElement);
+    Array.from(element).forEach((item, index) => {
         item.addEventListener('click', () => {
+            item.classList.toggle(classNameModifier);
+            console.log('Click item' + index);
+            libraryBlock.consoleLog(message);
+        })
+    })
+}
 
-            item.classList.toggle('block__image_big');
-            console.log('Click item ' + index);
-            
-        });
-
-    });
-
-});
+export { clickChangeSizing };
