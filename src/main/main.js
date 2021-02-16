@@ -1,4 +1,4 @@
-import * as styles from './main.scss';
+'use strict';
 
 import * as library from '../library.blocks/library.js';
 import * as block from '../common.blocks/block/block.js';
