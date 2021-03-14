@@ -1,4 +1,5 @@
-@import '../library.blocks/normalize.scss';
+@import '../library/normalize.scss';
+@import '../common/font/font.scss';
 @import './scss/variables.scss';
-@import '../common.blocks/font/font.scss';
-@import '../common.blocks/block/block.scss';
+@import './scss/mixins.scss';
+@import '../common/block/block.scss';

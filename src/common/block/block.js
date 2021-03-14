@@ -1,5 +1,5 @@
 'use strict';
-import * as libraryBlock from '../../library.blocks/block/library-block.js';
+import * as libraryBlock from '../../library/block/library-block.js';
 
 function clickChangeSizing(classNameElement, classNameModifier, message) {
     const element = document.getElementsByClassName(classNameElement);
