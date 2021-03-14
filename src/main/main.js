@@ -1,7 +1,7 @@
 'use strict';
 
-import * as library from '../library/library.js';
-import * as block from '../common/block/block.js';
+import * as library from '../libs/library.js';
+import * as block from '../blocks/block/block.js';
 
 window.addEventListener('DOMContentLoaded', () => {
     console.log(library.consoleLog('Hello'));
